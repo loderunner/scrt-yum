@@ -11,9 +11,9 @@ Add `scrt` repository by creating the following file at `/etc/yum.repos.d/scrt.r
 ```conf
 [scrt]
 name=scrt
-baseurl=https://loderunner.github.io/scrt-yum/main
+baseurl=https://loderunner.github.io/scrt-yum
 repo_gpgcheck=1
-gpgcheck=0
+gpgcheck=1
 enabled=1
 gpgkey=https://loderunner.github.io/scrt-yum/key.gpg
 sslverify=1
