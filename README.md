@@ -6,7 +6,7 @@ See https://github.com/loderunner/scrt for details.
 
 To install `scrt` using `yum`,
 
-Add `scrt` repository by creating the following file at `/etc/yum.repos.d/scrt.repo`:
+Add `scrt` repository by creating a file at `/etc/yum.repos.d/scrt.repo` with the following contents:
 
 ```conf
 [scrt]
